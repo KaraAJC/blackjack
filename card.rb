@@ -6,4 +6,8 @@ class Card
 		@face_value = options[:face_value]
 	end
 
+	def change_value(val)
+		@face_value = val
+	end
+
 end
